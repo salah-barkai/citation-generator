@@ -1,0 +1,158 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	user-select: none;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	background-color: skyblue;
+	border-style: none;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 15px;
+	margin: 20px;
+	cursor:pointer;
+}
+h1:hover{
+	color: white;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ul li {
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	text-decoration: none;
+	margin: 20px;
+	list-style: none;
+	cursor: pointer;
+}
+
+li:hover{
+	color: white;
+}
+
+.btn-citation{
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	padding: 50px;
+	margin: 30px;
+}
+
+.btn{
+	padding: 20px;
+	background-color: Black;
+	color: white;
+	width: 300px;
+	border-radius: 20px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-style: none;
+	cursor: pointer;
+}
+
+.btn:hover{
+	background-color: skyblue;
+	width: 350px;
+}
+
+.Citation-generator{
+	padding: 30px;
+    background-color: skyblue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 80px;
+    border-radius: 20px;
+    height: 150px;
+}
+.apropos {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 20px;
+}
+
+.apropos img {
+	width: 150px;
+	border-radius: 80%;
+}
+.apropos p {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 15px;
+}
+h2 {
+	font-style: all;
+	font-weight: bold;
+	font-size: 30px;
+	margin: 10px;
+
+}
+
+p{
+  font-size: 25px;
+}
+
+
+footer {
+	background-color: black;
+	padding: 20px;
+	color: white;
+	text-align: center;
+	justify-content: center;
+
+}
+
+.ath-btn {
+	margin: 10px;
+	padding: 10px 15px;
+	border-style: none;
+	background-color: skyblue;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.ath-btn:hover {
+	background-color: white;
+	color: black;
+}
+
+.citations {
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.titre-citation {
+	margin: 10px;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	font-size: 25px;
+}
+
+.auteur {
+	padding: 25px;
+	justify-content: center;
+	text-align: center;
+	background-color: skyblue;
+	width: auto;
+	margin: 30px;
+	border-radius: 20px;
+}
